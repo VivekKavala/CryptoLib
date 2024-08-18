@@ -1,0 +1,94 @@
+section {
+    padding: 10px;
+}
+
+.main-section {
+    padding-top: 0;
+}
+
+.card {
+    padding: 10px 20px;
+    box-shadow: 0px 2px 15px -3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.card .card-d {
+    display: flex;
+    gap: 10px;
+}
+
+.card .card-d img {
+    width: 200px;
+}
+
+.o-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prices {
+    padding-block: 10px;
+    overflow-x: scroll;
+}
+
+.prices::-webkit-scrollbar {
+    display: none;
+}
+
+.chakra-table {
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    min-width: 600px;
+}
+
+.chakra-table tbody tr td {
+    padding-block: 10px;
+}
+
+.chakra-table .coin-image-1 {
+    width: 30px;
+}
+
+.chakra-table .coin-data-1 {
+    max-width: 200px;
+}
+
+.chakra-table .coin-d {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.coin-name-d {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.coin-name-d span {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:600px) {
+    .card .card-d {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card .card-d img {
+        width: 70%;
+        margin-inline: auto;
+    }
+
+    .card .card-d .img-c {
+        display: flex;
+        justify-content: center;
+    }
+}

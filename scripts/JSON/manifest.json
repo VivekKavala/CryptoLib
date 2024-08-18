@@ -1,0 +1,25 @@
+{
+    "short_name": "CryptoLib",
+    "name": "CryptoLib",
+    "icons": [
+      {
+        "src": "https://cryptolib.in/assests/images/favicon.ico",
+        "type": "image/webp",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://cryptolib.in/assests/images/favicon.ico",
+        "type": "image/webp",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#202125",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#fff",
+    "description": "A Library for Crypto Currencies and Block Chain"
+  }
+  

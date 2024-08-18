@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Ethereum | CryptoLib</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="description" content="A Library for Crypto Currencies and Block Chain" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://CryptoLib.in/crypto-currencies/ethereum" />
+    <meta property="article:modified_time" content="2024-01-08">
+    <meta property="og:title" content="A Library for Crypto Currencies and Block Chain" />
+    <meta property="og:image" content="/assests/images/Animerulz.png" />
+    <meta property="og:image:width" content="650">
+    <meta property="og:image:height" content="350">
+    <meta property="og:description" content="A Library for Crypto Currencies and Block Chain" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta name="apple-mobile-web-app-status-bar" content="#f2bc57">
+    <meta name="theme-color" content="#202125">
+    <link rel="shortcut icon" href="/assests/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assests/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assests/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assests/images/favicon.ico">
+    <link rel="mask-icon" href="/assests/images/favicon.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#aee6dd">
+    <link rel="canonical" href="https://CryptoLib.in/crypto-currencies/ethereum">
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Crypto Library",
+          "name": "CryptoLib",
+          "date published": "10-08-2024",
+          "author" : {
+            "type" : "person",
+            "name" : "KVJJ"
+          }
+          }
+      </script>
+    <link rel="manifest" href="/scripts/JSON/manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFLNEYDDHS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BFLNEYDDHS');
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assests/styles/default.css">
+    <link rel="stylesheet" href="/assests/styles/home.css">
+    <link rel="stylesheet" href="/assests/styles/other.css">
+
+    <script async="async"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=64b36d739f35fb0012149533&amp;product=inline-share-buttons&amp;source=platform"
+        type="text/javascript">
+        </script>
+</head>
+
+<body>
+    <header class="header items-center">
+        <div class="max-1100 container">
+            <a href="/">
+                <img src='/assests/images/logo.png' alt="CryptoLib" class="logo" />
+            </a>
+            <nav class="nav">
+                <a class="nav-link small-txt" href="/introduction">Introduction</a>
+                <a class="nav-link small-txt" href="/crypto/blockchain-technology/">Blockchain</a>
+                <a class="nav-link small-txt" href="/crypto-currencies/">Cryptocurrencies</a>
+                <div class="nav-link small-txt more-link" href="">More&nbsp;
+                    <i class="fa-solid fa-chevron-down micro-txt"></i>
+                </div>
+                <a class="nav-link small-txt" href="/about">About</a>
+                <a class="nav-link small-txt" href="/contact">Contact</a>
+            </nav>
+            <button class="show-menu-btn small-txt">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="more-links">
+            <div class="links-d small-txt">
+                <div class="links">
+                    <a class="link" href="/crypto-currencies/bitcoin/">Bitcoin</a>
+                    <a class="link" href="/crypto-currencies/ethereum/">Ethereum</a>
+                    <a class="link" href="/crypto-currencies/dogecoin/">Doge Coin</a>
+                    <a class="link" href="/crypto-currencies/solana/">Solana</a>
+                    <a class="link t-txt" href="/crypto-currencies/">
+                        more crypto
+                        &nbsp;
+                        <i class="fa-solid fa-chevron-right micro-txt"></i>
+                    </a>
+                </div>
+                <div class="links">
+                    <a class="link" href="/crypto/wallets/">Crypto Wallets</a>
+                    <a class="link" href="/crypto/mining/">Crypto Mining</a>
+                    <a class="link" href="/crypto/decentralized-finance/">DeFi</a>
+                    <a class="link" href="/crypto/initial-coin-offerings/">ICO</a>
+                    <a class="link" href="/crypto/nft/">NFT's</a>
+                </div>
+                <div class="links">
+                    <a class="link" href="/crypto/security/">Security</a>
+                    <a class="link" href="/crypto/use-cases/">Use Cases</a>
+                    <a class="link" href="/crypto/community/">Community</a>
+                    <a class="link" href="/crypto/news/">News</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
+
+    <main>
+        <div class="navContainer">
+            <nav class="second-nav">
+                <ul class="list-style-none nav-list t-txt">
+                    <li>
+                        <a href="/">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+                    <div class="dividor">
+                        <i class="fa-solid fa-chevron-right micro-txt"></i>
+                    </div>
+                    <li>
+                        <a href="/crypto-currencies/">
+                            Crypto Currencies
+                        </a>
+                    </li>
+                    <div class="dividor">
+                        <i class="fa-solid fa-chevron-right micro-txt"></i>
+                    </div>
+                    <li>Ethereum</li>
+                </ul>
+            </nav>
+        </div>
+        <section class="main-section">
+            <div class="heading">
+                <img class="heading-img" src="/assests/images/ethereum_coin_img.jpg" alt="Ethereum">
+                <h1 class="h1 x-l-txt">Ethereum</h1>
+                <span class="t-txt">ETH</span>
+            </div>
+            <p class="small-txt">
+                &nbsp;&nbsp;
+                <strong>Ethereum</strong> is an open-source, public, blockchain-based, decentralized platform featuring
+                smart contract
+                function (scripting); it supports a cryptocurrency known as Ether (ETH). Among cryptocurrencies, Ether
+                is second in market capitalization only to Bitcoin. The platform is open-source software . <br>
+
+                &nbsp;&nbsp;Ethereum was officially proposed in late 2013 by programmer Vitalik Buterin, with
+                other
+                first founders
+                including Gavin Wood, Charles Hoskinson, Anthony Di Iorio, and Joseph Lubin. Development began in
+                2014
+                through a crowdfunding drive, and the network was then launched on July 30, 2015. It allows users to
+                create and deploy permanent and immutable decentralized applications with which other users can
+                interact. This implies a class of financial applications that are conducted over the main Ethereum
+                platform, rather than controlled in the traditional, centralized way by a large financial
+                organization.
+                Ethereum can be used to create, own, and trade NFTs that represent unique digital assets, and it
+                allows
+                for associating and including related pictures. Besides being used to launch other altcoins, the
+                ERC-20
+                token is used to represent a wide variety of other assets in fungible forms. <br>
+
+                &nbsp;&nbsp;Ethereum Transitioned from Proof of Work to Proof of Stake Ethereum changed its
+                consensus
+                algorithm from
+                proof-of-work to proof-of-stake in the upgrade that merged Eth1 and Eth2 chains, happening on
+                September
+                15. That will make the system between 100 and 1000 times more economical than it is now.
+            </p>
+            <ul class="m-top-10">
+                <li>
+                    <p class="small-txt bold">CryptoLib Rank - 2</p>
+                </li>
+                <li>
+                    <p class="small-txt bold">Market Cap (USD) - $313.3 B</p>
+                </li>
+                <li>
+                    <p class="small-txt bold">Max Supply - 120.28 M ETH</p>
+                </li>
+                <li>
+                    <p class="small-txt bold">Circulating Supply - 120.28 M ETH</p>
+                </li>
+            </ul>
+        </section>
+        <section class="author-details t-txt">
+            <div>Updated 17 Aug, 2024</div>
+            <div class="author-d">
+                <div class="author-p">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div>
+                    <p>Written by <strong>
+                            <a href="https://github.com/VivekKavala" target="_blank">
+                                Vivek
+                            </a>
+                        </strong>
+                    </p>
+                    <span class="micro-txt">Admin</span>
+                </div>
+            </div>
+        </section>
+        <section class="context">
+            <h2 class="m-l-txt">History of Ethereum</h2>
+            <ul class="small-txt">
+                <li>
+                    <h3 class="m-txt m-btm-2">The Birth of Ethereum</h3>
+                    <h5 class="small-txt">2013:</h5>
+                    <p>
+                        Ethereum was proposed by programmer Vitalik Buterin, aiming to expand blockchain technology
+                        beyond Bitcoin's capabilities. Alongside Buterin, notable founders included Gavin Wood, Charles
+                        Hoskinson, Anthony Di Iorio, and Joseph Lubin.
+                    </p>
+                    <h5 class="small-txt">2014:</h5>
+                    <p>
+                        Ethereum's development began with a successful crowdfunding campaign. The platform was designed
+                        to support decentralized applications and smart contracts.
+                    </p>
+                    <h5 class="small-txt">2015:</h5>
+                    <p>
+                        Ethereum officially went live on July 30, marking the start of its blockchain network. This
+                        launch set the stage for a new era of decentralized applications.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="m-txt m-btm-2">Expansion and Innovation</h3>
+                    <h5 class="small-txt">2016:</h5>
+                    <p>
+                        Ethereum introduced the concept of smart contracts and decentralized applications (dApps), which
+                        allowed developers to build a wide range of applications on its platform. This year also saw the
+                        launch of the Ethereum DAO, a decentralized autonomous organization.
+                    </p>
+                    <h5 class="small-txt">2016 (June):</h5>
+                    <p>
+                        The DAO suffered a major hack, leading to a significant portion of funds being stolen. This
+                        event prompted Ethereum to undergo a hard fork to reverse the hack's effects and protect the
+                        community.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="m-txt m-btm-2">Growth and Adoption</h3>
+                    <h5 class="small-txt">2017:</h5>
+                    <p>
+                        Ethereum experienced rapid growth as its blockchain became the primary platform for Initial Coin
+                        Offerings (ICOs) and decentralized finance (DeFi) applications. This period marked significant
+                        technological advancements and increased interest from investors.
+                    </p>
+                    <h5 class="small-txt">2018:</h5>
+                    <p>
+                        The cryptocurrency market faced a downturn, affecting Ethereum's price and overall market
+                        sentiment. However, Ethereum continued to be a crucial player in the blockchain ecosystem.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="m-txt m-btm-2">Technological Advancements</h3>
+                    <h5 class="small-txt">2020:</h5>
+                    <p>
+                        Ethereum introduced Ethereum 2.0, a major upgrade aimed at improving scalability and security.
+                        This transition included moving from a proof-of-work (PoW) to a proof-of-stake (PoS) consensus
+                        mechanism.
+                    </p>
+                    <h5 class="small-txt">2021:</h5>
+                    <p>
+                        The Ethereum network continued to grow, with significant advancements in DeFi and NFT sectors.
+                        Ethereum's role as a foundation for decentralized applications and smart contracts became
+                        increasingly prominent.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="m-txt m-btm-2">The Merge and Future Directions</h3>
+                    <h5 class="small-txt">2022 (September):</h5>
+                    <p>
+                        Ethereum completed a major upgrade known as "the Merge," transitioning from proof-of-work (PoW)
+                        to proof-of-stake (PoS). This shift reduced Ethereum's energy consumption by 99% and marked a
+                        significant milestone in the platform's evolution.
+                    </p>
+                    <p>
+                        Ethereum continues to evolve, addressing challenges and exploring new frontiers in blockchain
+                        technology and decentralized applications.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="m-l-txt">Key Features of Ethereum</h2>
+            <div class="small-txt">
+                <ul>
+                    <li>
+                        <h4 class="m-btm-2">Smart Contracts:</h4>
+                        <p>
+                            Ethereum allows the creation and execution of smart contracts, which are self-executing
+                            agreements with the terms directly written into code.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Decentralized Applications (dApps):</h4>
+                        <p>
+                            Developers can build decentralized applications on Ethereum, utilizing its blockchain to
+                            operate without intermediaries.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Ether (ETH):</h4>
+                        <p>
+                            Ether is the native cryptocurrency of Ethereum, used to pay for transaction fees and
+                            computational services on the network.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">ERC-20 Tokens:</h4>
+                        <p>
+                            Ethereum supports the creation of ERC-20 tokens, which are standardized tokens used for a
+                            variety of purposes, including initial coin offerings (ICOs) and new cryptocurrencies.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="m-l-txt">Advantages of Ethereum</h2>
+            <div class="small-txt">
+                <ul>
+                    <li>
+                        <h4 class="m-btm-2">Versatility:</h4>
+                        <p>
+                            Ethereum’s smart contracts and decentralized applications offer a wide range of use cases,
+                            from financial services to digital collectibles.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Innovation:</h4>
+                        <p>
+                            Ethereum is a pioneer in blockchain innovation, introducing concepts like smart contracts
+                            and decentralized finance (DeFi) that have significantly influenced the industry.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Active Development:</h4>
+                        <p>
+                            The Ethereum community is highly active, with ongoing upgrades and improvements, such as the
+                            transition to Ethereum 2.0 for enhanced scalability and efficiency.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Broad Adoption:</h4>
+                        <p>
+                            Ethereum has widespread adoption across various sectors, including finance, gaming, and
+                            digital art, contributing to its robust ecosystem.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="m-l-txt">Disadvantages of Ethereum</h2>
+            <div class="small-txt">
+                <ul>
+                    <li>
+                        <h4 class="m-btm-2">Scalability Issues:</h4>
+                        <p>
+                            Ethereum’s network can experience congestion and high transaction fees during peak usage,
+                            impacting scalability and performance.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Complexity:</h4>
+                        <p>
+                            The development and deployment of smart contracts can be complex and prone to coding errors,
+                            potentially leading to security vulnerabilities.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Energy Consumption:</h4>
+                        <p>
+                            Although Ethereum has transitioned to a proof-of-stake (PoS) model, its previous
+                            proof-of-work (PoW) system was criticized for high energy consumption.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="m-btm-2">Regulatory Risks:</h4>
+                        <p>
+                            As Ethereum grows, it faces increasing regulatory scrutiny, which could affect its
+                            development and adoption.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="o-sec">
+            <h2 class="m-l-txt">
+                Related Articles
+            </h2>
+            <article class="card">
+                <a href="/crypto-currencies/top-10-by-market-cap/" class="not-hover">
+                    <h3 class="small-txt m-btm-2">Top 10 Cryptocurrencies by Market Cap</h3>
+                    <p class="t-txt m-btm-2">by <strong>
+                            Vivek
+                        </strong>, 08 Aug, 2024</p>
+                    <div class="card-d">
+                        <div class="img-c">
+                            <img src="/assests/images/brian-j-tromp-qELSNhnhRFw-unsplash.jpg"
+                                alt="Top 10 CryptoCurrencies">
+                        </div>
+                        <div>
+                            <p class="t-txt max-4-l">
+                                Market capitalization, or market cap, is calculated by multiplying the current price of
+                                a
+                                cryptocurrency by the total number of coins or tokens that are in circulation. <br>
+                                As of August 2024, the top 10 cryptocurrencies by market cap represent a diverse array
+                                of digital assets, each with unique features and applications. Bitcoin (BTC) leads the
+                                market as the first and most valuable cryptocurrency, often regarded as digital gold.
+                                Ethereum (ETH) follows
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            <article class="card">
+                <a href="/crypto/wallets/best-crypto-wallets/" class="not-hover">
+                    <h3 class="small-txt m-btm-2">Best Crypto Wallets</h3>
+                    <p class="t-txt m-btm-2">by <strong>
+                            Vivek
+                        </strong>, 08 Aug, 2024</p>
+                    <div class="card-d">
+                        <div class="img-c">
+                            <img src="/assests/images/rc-xyz-nft-gallery-VLZ6YOEIN-w-unsplash.jpg"
+                                alt="Best Crypto Wallets">
+                        </div>
+                        <div>
+                            <p class="t-txt max-4-l">
+                                Choosing the right cryptocurrency wallet is crucial for securely storing and managing
+                                your digital assets. Here are some of the best cryptocurrency wallets available...
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer items-center small-txt">
+        <div class="to-top">
+            <button onclick="scrollToTop()" class="scroll-to-top-btn">
+                <i class="fa-solid fa-chevron-up t-txt"></i>
+            </button>
+        </div>
+        <div class="max-1100 container">
+            <!-- <div class="footer-img">
+                <a href="/">
+                    <img src='/assests/images/logo.png' alt="CryptoLib" class="logo" />
+                </a>
+            </div> -->
+            <div class="addthis_inline_share_toolbox" id="addthis">
+                <div class="sharethis-inline-share-buttons" id="addthis" style="margin-bottom: 20px;margin-left: 20px;">
+                </div>
+                <style>
+                    #st-cmp-v2 {
+                        display: none;
+                    }
+                </style>
+            </div>
+            <ul class="footer-links">
+                <li>
+                    <a href="/privacy-policy">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="/disclaimer">
+                        Disclaimer
+                    </a>
+                </li>
+                <li>
+                    <a href="/terms-of-service">
+                        Terms of Service
+                    </a>
+                </li>
+            </ul>
+            <div class="footer-d">
+                <p class="t-txt">
+                    &copy; Copyright 2024 - Crypto Lib
+                </p>
+                <p class="t-txt">
+                    * All Images, Files & Trademarks Belongs To Their Respective Owners, We Are Just Sharing For
+                    Educational Purpose.
+                </p>
+            </div>
+            <a href="//www.dmca.com/Protection/Status.aspx?ID=1d80e09f-abd4-4e8f-a60b-d9860e1a2227" target="_blank"
+                title="DMCA.com Protection Status" class="dmca-badge"> <img
+                    src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=1d80e09f-abd4-4e8f-a60b-d9860e1a2227"
+                    alt="DMCA.com Protection Status" /></a>
+            <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+        </div>
+        <div class="footer-bg">
+            <div class="blur-img"></div>
+            <div class="blur-img"></div>
+            <div class="blur-img"></div>
+        </div>
+    </footer>
+
+
+    <script src="/assests/scripts/default.js"></script>
+</body>
+
+</html>

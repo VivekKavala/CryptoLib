@@ -1,0 +1,52 @@
+.home-main {
+    height: calc(90vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.h1,
+h2,
+h3,
+h4 {
+    margin-block: 10px;
+}
+
+h4 {
+    font-weight: 550;
+}
+
+.coin-image {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.list-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.know-more {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-block: 10px;
+}
+
+@media only screen and (max-width:800px) {
+    main ul {
+        padding-inline-start: 20px !important;
+    }
+
+    .list-item:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .list-item:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+}
