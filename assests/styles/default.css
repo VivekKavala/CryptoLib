@@ -56,9 +56,17 @@ main {
     box-shadow: 0px 6px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+.nft-images {
+    max-height: 200px;
+}
+
 @media only screen and (max-width:800px) {
     .header {
         height: 80px;
+    }
+
+    .nft-images {
+        max-height: 150px;
     }
 }
 
@@ -258,6 +266,10 @@ main ul {
 
 .style-number {
     list-style: decimal;
+}
+
+.list-style-round {
+    list-style: circle;
 }
 
 .navContainer {
