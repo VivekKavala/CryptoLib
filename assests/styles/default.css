@@ -522,7 +522,8 @@ main ul {
 
 @media only screen and (max-width:800px) {
     .logo {
-        width: 170px;
+        margin-top: 10px;
+        width: 180px;
         margin-left: 10px;
     }
 
