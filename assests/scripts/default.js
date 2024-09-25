@@ -36,6 +36,8 @@
     showMenuBtn.addEventListener('click', () => {
         if (nav.classList.contains('showed')) {
             nav.setAttribute('style', 'opacity:0;');
+            moreLinksContainer.setAttribute('style', `display:none;`);
+
 
             nav.classList.remove('showed');
         } else {
