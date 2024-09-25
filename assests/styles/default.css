@@ -283,6 +283,10 @@ main ul {
     padding: 25px 10px 10px 10px;
 }
 
+.nav-list a {
+    white-space: nowrap;
+}
+
 .show-menu-btn {
     display: none;
 }
