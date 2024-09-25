@@ -14,17 +14,22 @@
     //     moreLinksContainerStyles = `left:0px`;
     // moreLinksContainer.setAttribute('style', moreLinksContainerStyles)
     moreLinksBtn.addEventListener('click', () => {
-        if (moreLinksContainer.classList.contains('showed')) {
-            moreLinksContainer.setAttribute('style', `transform: translateY(-350px);`);
-            moreLinksBtnChivron.setAttribute('style', 'transform: rotate(0deg);');
+        if (window.innerWidth > 900) {
 
-            moreLinksContainer.classList.remove('showed');
+            if (moreLinksContainer.classList.contains('showed')) {
+                moreLinksContainer.setAttribute('style', `transform: translateY(-350px);`);
+                moreLinksBtnChivron.setAttribute('style', 'transform: rotate(0deg);');
+
+                moreLinksContainer.classList.remove('showed');
+            } else {
+
+                moreLinksContainer.setAttribute('style', `transform: translateY(0px);`);
+                moreLinksBtnChivron.setAttribute('style', 'transform: rotate(-180deg);');
+
+                moreLinksContainer.classList.add('showed');
+            }
         } else {
-
-            moreLinksContainer.setAttribute('style', `transform: translateY(0px);`);
-            moreLinksBtnChivron.setAttribute('style', 'transform: rotate(-180deg);');
-
-            moreLinksContainer.classList.add('showed');
+            moreLinksContainer.setAttribute('style', `display:flex;`);
         }
     })
 
