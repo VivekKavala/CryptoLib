@@ -2,22 +2,22 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>https://cryptolib.in/</loc>
+		<loc>https://cryptolib.in</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/introduction/</loc>
+		<loc>https://cryptolib.in/introduction</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/blockchain-technology/</loc>
+		<loc>https://cryptolib.in/crypto/blockchain-technology</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/</loc>
+		<loc>https://cryptolib.in/crypto-currencies</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -32,77 +32,57 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/bitcoin/</loc>
+		<loc>https://cryptolib.in/crypto/wallets</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/ethereum/</loc>
+		<loc>https://cryptolib.in/crypto/mining</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/dogecoin/</loc>
+		<loc>https://cryptolib.in/crypto/decentralized-finance</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/solana/</loc>
+		<loc>https://cryptolib.in/crypto/initial-coin-offerings</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/wallets/</loc>
+		<loc>https://cryptolib.in/crypto/nft</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/mining/</loc>
+		<loc>https://cryptolib.in/crypto/security</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/decentralized-finance/</loc>
+		<loc>https://cryptolib.in/crypto/use-cases</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/initial-coin-offerings/</loc>
+		<loc>https://cryptolib.in/crypto/community</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/nft/</loc>
+		<loc>https://cryptolib.in/crypto/news</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/security/</loc>
+		<loc>https://cryptolib.in/crypto/decentralization</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/use-cases/</loc>
-		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://cryptolib.in/crypto/community/</loc>
-		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://cryptolib.in/crypto/news/</loc>
-		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://cryptolib.in/crypto/decentralization/</loc>
-		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://cryptolib.in/crypto/cryptography/</loc>
+		<loc>https://cryptolib.in/crypto/cryptography</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -117,7 +97,7 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/etherium/</loc>
+		<loc>https://cryptolib.in/crypto-currencies/etherium</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
@@ -637,127 +617,127 @@
 		<priority>0.75</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/altcoins/</loc>
+		<loc>https://cryptolib.in/crypto-currencies/altcoins</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto-currencies/top-10-by-market-cap/</loc>
+		<loc>https://cryptolib.in/crypto-currencies/top-10-by-market-cap</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/wallets/best-crypto-wallets/</loc>
+		<loc>https://cryptolib.in/crypto/wallets/best-crypto-wallets</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/openais-x-account-was-hacked-to-promote-a-crypto-scam/</loc>
+		<loc>https://cryptolib.in/crypto/news/openais-x-account-was-hacked-to-promote-a-crypto-scam</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/crypto-market-pumps-as-blackrock-recommends-investors-to-shift-85-to-bitcoin-doge-left-lagging-behind/</loc>
+		<loc>https://cryptolib.in/crypto/news/crypto-market-pumps-as-blackrock-recommends-investors-to-shift-85-to-bitcoin-doge-left-lagging-behind</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/sweden-classifies-some-crypto-exchanges-as-professional-money-launderers/</loc>
+		<loc>https://cryptolib.in/crypto/news/sweden-classifies-some-crypto-exchanges-as-professional-money-launderers</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/solana-seeker-what-to-know-about-the-crypto-smartphone-sagas-successor/</loc>
+		<loc>https://cryptolib.in/crypto/news/solana-seeker-what-to-know-about-the-crypto-smartphone-sagas-successor</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/forget-the-fedchina-could-be-about-to-quietly-blow-up-the-bitcoin-price-and-crypto-market/</loc>
+		<loc>https://cryptolib.in/crypto/news/forget-the-fedchina-could-be-about-to-quietly-blow-up-the-bitcoin-price-and-crypto-market</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/kraken-expands-reach-with-coin-meester-acquisition-in-netherlands/</loc>
+		<loc>https://cryptolib.in/crypto/news/kraken-expands-reach-with-coin-meester-acquisition-in-netherlands</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/an-official-openai-x-account-just-got-hacked-by-crypto-scammers/</loc>
+		<loc>https://cryptolib.in/crypto/news/an-official-openai-x-account-just-got-hacked-by-crypto-scammers</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/top-3-crypto-predictions-for-2025-solana-to-soar-300-dogecoin-bulls-eyeing-a-push-to-1-rexas-finance-rxs-to-rocket-from-under-008-to-10/</loc>
+		<loc>https://cryptolib.in/crypto/news/top-3-crypto-predictions-for-2025-solana-to-soar-300-dogecoin-bulls-eyeing-a-push-to-1-rexas-finance-rxs-to-rocket-from-under-008-to-10</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/us-sec-coinbase-clash-in-court-over-crypto-rulemaking/</loc>
+		<loc>https://cryptolib.in/crypto/news/us-sec-coinbase-clash-in-court-over-crypto-rulemaking</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/ethereum-whales-set-their-eyes-on-etfswap-etfs-defi-token-as-final-presale-stage-begins/</loc>
+		<loc>https://cryptolib.in/crypto/news/ethereum-whales-set-their-eyes-on-etfswap-etfs-defi-token-as-final-presale-stage-begins</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/harris-backs-crypto-5-ways-to-leverage-it-for-her-opportunity-economy/</loc>
+		<loc>https://cryptolib.in/crypto/news/harris-backs-crypto-5-ways-to-leverage-it-for-her-opportunity-economy</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/coinbase-locks-horns-with-us-sec-in-court-over-crypto-rulemaking/</loc>
+		<loc>https://cryptolib.in/crypto/news/coinbase-locks-horns-with-us-sec-in-court-over-crypto-rulemaking</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/carbon-emissions-from-ai-and-crypto-are-surging-and-tax-policy-can-help/</loc>
+		<loc>https://cryptolib.in/crypto/news/carbon-emissions-from-ai-and-crypto-are-surging-and-tax-policy-can-help</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/lawmaker-crypto-community-troll-gary-gensler-ahead-of-congress-sec-oversight-hearing/</loc>
+		<loc>https://cryptolib.in/crypto/news/lawmaker-crypto-community-troll-gary-gensler-ahead-of-congress-sec-oversight-hearing</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/openai-news-account-on-x-compromised-sends-crypto-posts/</loc>
+		<loc>https://cryptolib.in/crypto/news/openai-news-account-on-x-compromised-sends-crypto-posts</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/open-ais-x-account-compromised-crypto-posts-sent-by-unauthorized-user/</loc>
+		<loc>https://cryptolib.in/crypto/news/open-ais-x-account-compromised-crypto-posts-sent-by-unauthorized-user</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/an-official-openai-x-account-was-taken-over-to-peddle-a-crypto-scam/</loc>
+		<loc>https://cryptolib.in/crypto/news/an-official-openai-x-account-was-taken-over-to-peddle-a-crypto-scam</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/crypto-scammers-hack-openais-press-account-on-x/</loc>
+		<loc>https://cryptolib.in/crypto/news/crypto-scammers-hack-openais-press-account-on-x</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/the-zombie-flappy-bird-saga-gets-weirder-the-game-will-never-have-nfts-but-it-does-have-web3-features-and-you-can-only-play-it-through-telegram-which-doesnt-seem-great/</loc>
+		<loc>https://cryptolib.in/crypto/news/the-zombie-flappy-bird-saga-gets-weirder-the-game-will-never-have-nfts-but-it-does-have-web3-features-and-you-can-only-play-it-through-telegram-which-doesnt-seem-great</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/bitcoins-73-monthly-gain-miners-hold-coins-as-supply-tightens/</loc>
+		<loc>https://cryptolib.in/crypto/news/bitcoins-73-monthly-gain-miners-hold-coins-as-supply-tightens</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/company-moves-into-former-crypto-mine-that-biden-ordered-to-leave-for-national-security-concerns/</loc>
+		<loc>https://cryptolib.in/crypto/news/company-moves-into-former-crypto-mine-that-biden-ordered-to-leave-for-national-security-concerns</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
 	<url>
-		<loc>https://cryptolib.in/crypto/news/crypto-miner-truce-leaves-open-the-possibility-of-riot-taking-over-bitfarms/</loc>
+		<loc>https://cryptolib.in/crypto/news/crypto-miner-truce-leaves-open-the-possibility-of-riot-taking-over-bitfarms</loc>
 		<lastmod>2024-09-24T16:03:33+00:00</lastmod>
 		<priority>0.64</priority>
 	</url>
