@@ -76,6 +76,16 @@ section {
     overflow: hidden;
 }
 
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-header img {
+    height: 30px;
+}
+
 @media only screen and (max-width:600px) {
     .card .card-d {
         flex-direction: column;
