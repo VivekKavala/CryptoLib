@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
 
-html {
+html,
+* {
     font-family: 'Poppins', sans-serif;
     line-height: 0.7cm;
 }
@@ -361,7 +362,7 @@ main ul {
 .scroll-to-top-btn {
     position: relative;
     z-index: 3;
-    padding: 10px 12px;
+    padding: 10px 15px;
     border: 1px solid rgba(0, 0, 0, 0.7);
     border-radius: 50%;
 }
