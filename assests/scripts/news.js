@@ -8,12 +8,17 @@
     const submitBtn = document.querySelector('#submit-btn');
 
     let date = new Date();
-    let day = date.getDay();
+    let day = date.getDate();
+
+    console.log(day);
+
 
     for (let i = 3; i < day; i++) {
         let option = document.createElement('option');
         option.value = i;
         option.innerText = i;
+        console.log(option);
+
         daySelector.appendChild(option);
     }
 
