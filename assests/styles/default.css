@@ -73,6 +73,8 @@ main {
 }
 
 .ads-by-google {
+    position: relative;
+    z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,6 +109,10 @@ main {
     position: relative;
     z-index: 2;
     background-color: rgba(255, 255, 255);
+}
+
+.header {
+    /* overflow-y: hidden; */
 }
 
 .more-links {
