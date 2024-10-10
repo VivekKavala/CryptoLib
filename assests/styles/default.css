@@ -78,9 +78,9 @@ main {
     align-items: center;
 }
 
-.small-banner-ad {
+.small-banner-ad .adsbygoogle {
     padding: 10px;
-    max-height: 90px;
+    max-height: 90px !important;
 }
 
 .footer {
