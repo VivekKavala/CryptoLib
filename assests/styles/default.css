@@ -501,7 +501,8 @@ main ul {
         transition: all 0.2s;
         position: absolute;
         right: 0px;
-        opacity: 0;
+        /* opacity: 0; */
+        display: none;
         top: 100px;
         height: calc(100vh - 100px);
         padding-inline: 30px;
