@@ -555,6 +555,38 @@ main ul {
         flex-direction: column;
         text-align: center;
     }
+
+    .x-l-txt {
+        font-size: 25px;
+    }
+
+    .l-txt {
+        font-size: 22px;
+    }
+
+    .m-l-txt {
+        font-size: 18px;
+    }
+
+    .m-txt {
+        font-size: 16px;
+    }
+
+    .s-m-txt {
+        font-size: 15px;
+    }
+
+    .small-txt {
+        font-size: 13px;
+    }
+
+    .t-txt {
+        font-size: 11px;
+    }
+
+    .micro-txt {
+        font-size: 10px;
+    }
 }
 
 .max-one-line {
